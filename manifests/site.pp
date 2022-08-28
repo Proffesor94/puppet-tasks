@@ -49,3 +49,19 @@ node 'slave2.puppet' {
   ensure => absent,
  }
 }
+
+node 'master.puppet' {
+
+include nginx
+
+nginx::resource::server { 'proxy-master':
+    listen_port => 81,
+    proxy       => 'http://192.168.56.22:81',
+                        }
+}
+
+node mineserver.puppet {
+
+  include role::mineserver
+  
+}
