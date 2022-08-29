@@ -1,4 +1,4 @@
-class static {
+class profile::static {
 
  package { 'httpd':
   ensure => latest,

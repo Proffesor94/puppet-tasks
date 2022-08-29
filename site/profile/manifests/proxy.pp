@@ -1,4 +1,4 @@
-class proxy {
+class profile::proxy {
  
 include nginx
 

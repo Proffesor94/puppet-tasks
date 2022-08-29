@@ -1,4 +1,4 @@
- class dynamic {
+ class profile::dynamic {
  
  package { ['httpd','php'] :
   ensure => latest,
