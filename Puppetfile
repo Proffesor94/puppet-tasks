@@ -6,4 +6,3 @@ mod 'puppet-nginx', '4.0.0'
 mod 'puppetlabs-apache', '8.1.0'
 mod 'puppetlabs-inifile', '5.3.0'
 mod 'puppet-php', '8.1.0'
-
